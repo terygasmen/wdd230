@@ -1,23 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
-    --main_font: font-family: 'Roboto', sans-serif;
+    --main_font: 'Roboto', sans-serif; 
+    --blue: #0B4F6C;
+    --white: #FBFBFF;
 }
 
 html {
     font-family: var(--main_font);
-    width: fit-content;
+    position: relative;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .block_container {
-    background-color: blue;
+    background-color: var(--blue);
     border-radius: 10px;
-    padding: 10px;
-    color: white;
-    justify-content: center;
+    padding: 20px;
+    color: var(--white);
+    margin: 50px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
 }
 
 header {
     display: flex;
     gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+main {
+    margin: 50px;
+}
+
+footer {
+    text-align: center;
 }
