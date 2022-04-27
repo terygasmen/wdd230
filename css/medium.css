@@ -1,4 +1,12 @@
 @media (min-width: 32.5em) {
-
+    h2, h3 {
+        font-size: medium;
+    }
+    main {
+        margin: 20px;
+    }
+    .block_container {
+        margin: 10px;
+    }
 };
 
