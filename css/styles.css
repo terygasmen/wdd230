@@ -40,12 +40,12 @@ main {
     margin: 50px;
 }
 main p {
-    color: gray;
+    color: black;
 }
 
 footer {
     text-align: center;
 }
 footer p {
-    color: grey;
+    color: black;
 }
