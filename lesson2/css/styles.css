@@ -1,12 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 :root {
-    --main_font: 'Montserrat', sans-serif;
+    --main_font: 'DM Sans', sans-serif;
+    --gray: #393A42;
+    --black: #101419;
+    --white: #F7F4F2;
 }
 
 html {
     font-family: var(--main_font);
-    margin: 10px;
+    position: relative;
+    color: var(--black);
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h1, h2, h3, p {
@@ -16,39 +26,44 @@ h1 {
     font-size: 25px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 15px;
+}
+h3 {
+    font-size: 12px;
 }
 p {
     font-size: 12px;
 }
 
 header, footer {
-    background-color: gray;
+    background-color: var(--gray);
     margin: 10px 0;
     padding: 10px;
     text-align: center;
     color: white;
+    border-radius: 10px;
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
+    grid-gap: 20px;
     justify-items: center;
+    margin: 0 50px;
 }
 
 .block_container {
-    border: solid 1px black;
+    border: solid 1px var(--black);
     border-radius: 10px 10px 0 0;
-    background-color: lightgray;
+    background-color: var(--white);
     overflow: hidden;
+    max-width: max-content;
 }
 .container_label {
     border-radius: 10px 10px 0 0;
-    background-color: gray;
-    color: white;
+    background-color: var(--gray);
     padding: 3px;
-    font-size: 15px;
+    color: var(--white);
 }
 .container_label, .block_container p {
     padding: 10px;
