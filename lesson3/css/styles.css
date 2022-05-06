@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;800&family=Playfair+Display:ital@0;1&display=swap');
+
+:root {
+    --main_font: 'Playfair Display', serif;
+    --secondary_font: 'Archivo', sans-serif;
+    /* Colors */
+    --dark_green: #12543b;
+    --green: #84bc9c;
+    --light_brown: #897c80;
+    --white: #fffdf7;
+    --orange: #db9065;
+}
+
+html {
+    font-family: var(--secondary_font);
+}
+
+body {
+    margin: 0;
+    padding: 50px 150px;
+}
+
+h1, .text_block h2 {
+    font-family: var(--main_font);
+}
+.text_block p {
+    font-family: var(--secondary_font);
+}
+
+.header_block {
+    display: flex;
+    justify-content:space-between;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content:space-between;
+}
