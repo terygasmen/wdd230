@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;800&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;700&display=swap');
 
 :root {
-    --main_font: 'Playfair Display', serif;
-    --secondary_font: 'Archivo', sans-serif;
+    /* Fonts */
+    --main_font: 'Open Sans', sans-serif;
+    --secondary_font: 'Poppins', sans-serif;
     /* Colors */
     --dark_green: #12543b;
     --green: #84bc9c;
@@ -13,31 +14,62 @@
 
 html {
     font-family: var(--secondary_font);
+    background-color: var(--white);
+    color: var(--dark_green);
 }
-
 body {
     margin: 0;
     padding: 50px 150px;
 }
-
-h1, .text_block h2 {
-    font-family: var(--main_font);
-}
-.text_block p {
-    font-family: var(--secondary_font);
+h1, h2, h3, h4, p {
+    margin: 0;
 }
 
+header {
+    margin: 20px 0;
+}
 .header_block {
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
-
 header img {
     width: 100px;
     height: 100px;
 }
-
+nav {
+    margin: 20px 0;
+}
 nav ul {
     display: flex;
     justify-content:space-between;
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    font-size: 1em;
+    font-family: var(--main_font);
+}
+a:link {
+    text-decoration: none;
+    color: var(--dark_green);
+}
+a:visited {
+    text-decoration: none;
+    color: var(--dark_green);
+}
+.text_block {
+    background-color: var(--light_brown);
+    padding: 50px;
+    color: var(--white);
+    margin: 20px 0;
+    border-radius: 20px;
+}
+h1, .text_block h2 {
+    font-family: var(--main_font);
+    margin-bottom: 10px;
+}
+.text_block p {
+    font-family: var(--secondary_font);
+    margin-bottom: 10px;
 }
