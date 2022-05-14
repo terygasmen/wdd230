@@ -31,4 +31,4 @@ let fulldate = dayName + ", " + d.getDate() + " " + monthName + " " + d.getFullY
 
 document.getElementById("date_today").textContent = fulldate;
 document.getElementById("year_today").textContent = year;
-document.getElementById("timestamp_today").textContent =d;
+document.getElementById("timestamp_today").textContent = d;
