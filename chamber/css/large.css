@@ -44,7 +44,7 @@ li {
     font-family: var(--main_font);
     text-align: center;
 }
-.hero, .event, .weather, .news_release, .spotlights, .spotlight_block, .join {
+.event, .weather, .news_release, .spotlights, .spotlight_block, .join {
     border: 1px solid black;
     height: auto;
 }
