@@ -53,7 +53,7 @@ button:hover {
     cursor: pointer;
 }
 .section_block {
-    border: 1px solid var(--light_brown);
+    border: 0;
     border-radius: 10px;
 }
 .section_block h3 {
@@ -63,7 +63,9 @@ button:hover {
     padding-bottom: 10px;
 }
 .date_today {
-    border: 1px solid var(--light_brown);
+    border: 1px solid var(--dark_green);
+    background-color: var(--dark_green);
+    color: var(--white);
     border-radius: 10px;
     grid-column: 1/4;
     margin: 10px 50px 30px 50px;
@@ -73,7 +75,7 @@ button:hover {
     font-family: var(--main_font);
     text-align: center;
 }
-.event, .weather, .news_release, .spotlights, .spotlight_block, .join {
+.event, .weather, .news_release, .spotlight_block, .join {
     border: 1px solid black;
     height: auto;
 }
@@ -92,9 +94,34 @@ button:hover {
 	top: 30px;
 	right: 30px;
 }
+.event {
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+}
+.join {
+    background-color: var(--green);
+    border: 1px solid var(--green);
+}
 .join button {
     background-color: var(--dark_green);
+    border: 0;
     color: var(--white);
+}
+.news_release {
+    background-color: var(--light_brown);
+    border: 1px solid var(--light_brown);
+}
+.spotlight_block_1 {
+    background-color: var(--light_brown);
+    border: 1px solid var(--light_brown);
+}
+.spotlight_block_2 {
+    background-color: var(--green);
+    border: 1px solid var(--green);
+}
+.spotlight_block_3 {
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
 }
 
 
@@ -187,9 +214,17 @@ button:hover {
         grid-column: 2/3;
         grid-row: 3/4;
     }
-    .spotlights {
+    .spotlight_block_1 {
         grid-column: 3/4;
-        grid-row: 1/4;
+        grid-row: 1/2;
+    }
+    .spotlight_block_2 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .spotlight_block_3 {
+        grid-column: 3/4;
+        grid-row: 3/4;
     }
     
     /* FOOTER */
