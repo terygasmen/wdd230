@@ -58,28 +58,17 @@ li {
 .hero {
 	position: relative;
 }
-.hero_text_block {
-	position: absolute;
-	top: 80px;
+.hero button {
+    position: absolute;
+	top: 180px;
 	right: 50px;
-	background-color: var(--light_brown);
-	border: 1px solid var(--light_brown);
+    background-color: var(--white);
     border-radius: 10px;
-	padding: 1.5rem;
-	opacity: 0.9;
-}
-.hero_text_block h1 {
-    color: var(--white);
-}
-.hero_text_block button {
-    background-color: var(--dark_green);
-    border-radius: 10px;
-    border: 1px solid var(--dark_green);
+    border: 1px solid var(--white);
     padding: 10px 15px;
-    color: var(--white);
+    color: var(--dark_green);
     font-family: var(--main_font);
 }
-
 
 
 /* HEADER */
