@@ -33,10 +33,17 @@ div {
 a:link {
     text-decoration: none;
     color: var(--dark_green);
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
 }
 a:visited {
     text-decoration: none;
     color: var(--dark_green);
+}
+a:hover {
+    background-color: var(--orange);
+    color: var(--white);
 }
 li {
     list-style: none;
@@ -122,6 +129,10 @@ button:hover {
 .spotlight_block_3 {
     background-color: var(--orange);
     border: 1px solid var(--orange);
+}
+.weather {
+    background-color: var(--green);
+    border: 1px solid var(--green);
 }
 
 
