@@ -1,0 +1,8 @@
+@media screen and (max-width: 700px) {
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 10px;
+    }
+}

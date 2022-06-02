@@ -46,10 +46,12 @@ nav {
     margin: 20px 0;
 }
 nav ul {
-    display: flex;
-    justify-content:space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 nav ul li {
     font-size: 1em;
