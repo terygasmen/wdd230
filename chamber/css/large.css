@@ -143,11 +143,15 @@ button:hover {
     width: 200px;
     height: 160px;
 }
+.discover_section img:hover {
+    border: 10px solid var(--orange);
+    border-radius: 10px;
+}
 .discover_section {
     display: grid;
     grid-template-columns: 30% 70%;
 }
-.discover_facts {
+.brown_text_block {
     background-color: var(--light_brown);
     color: var(--white);
     padding: 30px;
