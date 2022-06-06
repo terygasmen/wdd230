@@ -56,6 +56,11 @@
         display: block;
     }
 
+    /* Main */
+    .hero {
+        height: 50%;
+    }
+
     /* Footer */
     footer {
         text-align: center;

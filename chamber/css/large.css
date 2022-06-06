@@ -11,6 +11,10 @@
     --white: #fffdf7;
     --orange: #db9065;
 }
+.social_media img {
+    width: 20px;
+    height: 20px;
+}
 
 html {
     font-family: var(--secondary_font);
