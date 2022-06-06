@@ -139,6 +139,22 @@ button:hover {
     border: 1px solid var(--green);
 }
 
+.discover_section img {
+    width: 200px;
+    height: 160px;
+}
+.discover_section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.discover_facts {
+    background-color: var(--light_brown);
+    color: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 /* HEADER */
 @media screen and (min-width: 900px) {
