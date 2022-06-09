@@ -158,6 +158,10 @@ button:hover {
     border-radius: 10px;
     text-align: center;
 }
+.footer_headline img {
+    width: 80px;
+    height: 80px;
+}
 
 
 /* HEADER */
