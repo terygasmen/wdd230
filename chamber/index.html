@@ -16,9 +16,11 @@
     <header>
         <!-- Headline -->
         <div class="headline">
-            <img src="images/logo_green_bg.png" alt="Narvacan Business Suite Logo">
-            <h1>Narvacan Business Suite</h1>
-            <h2>Chamber of Commerce</h2>
+            <a href="index.html"><img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo"></a>
+            <div class="header_text_block">
+                <h1>Narvacan Business Suite</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
         </div>
         <!-- Social Media Links -->
         <div class="social_media">
@@ -57,6 +59,17 @@
         <!-- Weather -->
         <div class="weather section_block">
             <h2>Weather</h2>
+            <div id="home-weather-temp">
+                <img src="images/logo_green_bg.webp" alt="Weather image placeholder">
+                <h4><span id="temperature">10</span>°C</h4>
+            </div>
+            <h5 id="home-weather-sun">Sunny</h5>
+            <div id="home-weather-wind">
+                <p>Wind Speed:</p>
+                <p><span id="wind-speed">10</span> km/h</p>
+                <p>Wind Chill:</p>
+                <p id="wind-chill">N/A</p>
+            </div>
         </div>
         <!-- News Release -->
         <div class="news_release section_block">
@@ -88,7 +101,7 @@
     <footer>
         <!-- Footer Headline -->
         <div class="footer_headline">
-            <img src="images/logo_green_bg.png" alt="Narvacan Business Suite Logo">
+            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
             <h1>Narvacan Business Suite</h1>
             <h2>Chamber of Commerce</h2>
             <p>Sta. Lucia, Narvacan, Ilocos Sur, Philippines</p>
@@ -105,8 +118,6 @@
             <p>WDD 230 Project</p>
             <p>Last Modification: <span id="timestamp_today"></span></p>
         </div>
-        <p class="medium-copyright">&copy; <span id="medium-copyright-year"></span>
-            Narvacan Business Suite | Therese Lee Gasmen | WDD 230 Project | Last Updated: <span id="medium-last-updated"></span></p>
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/menu.js"></script>

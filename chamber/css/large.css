@@ -94,6 +94,31 @@ button:hover {
     border: 1px solid black;
     height: auto;
 }
+.weather img{
+    max-width:20%;
+    max-height:20%;
+    object-fit:cover;
+}
+#home-weather-temp {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#home-weather-sun {
+    margin: 0;
+}
+.headline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.headline img {
+    grid-column: 1/2;
+}
+.headline_text_block {
+    grid-column: 2/5;
+}
 .hero {
 	position: relative;
     background-image: url(https://images.unsplash.com/photo-1546138823-07da5db6c7fc?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856);
@@ -153,7 +178,8 @@ button:hover {
 }
 .discover_section {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
 }
 .brown_text_block {
     background-color: var(--light_brown);
@@ -182,7 +208,7 @@ button:hover {
     
     .headline {
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
     }
     .headline img {
@@ -272,6 +298,14 @@ button:hover {
     .spotlight_block_3 {
         grid-column: 3/4;
         grid-row: 3/4;
+    }
+
+    /* DISCOVER */
+    .discover_section img {
+        grid-column: 1/2;
+    }
+    .discover_section section {
+        grid-column: 2/4;
     }
     
     /* FOOTER */

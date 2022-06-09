@@ -96,6 +96,14 @@
         grid-row: 5/6;
     }
 
+    /* DISCOVER */
+    .discover_section img {
+        grid-column: 1/2;
+    }
+    .discover_section section {
+        grid-column: 2/4;
+    }
+
     /* FOOTER */
     
     footer {

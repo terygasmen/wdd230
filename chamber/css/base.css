@@ -61,6 +61,20 @@
         height: 200px;
     }
 
+    /* Discover */
+    .discover_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .discover_section img {
+        grid-row: 1/2;
+    }
+    .discover_section section {
+        grid-row: 2/3;
+        text-align: center;
+    }
+
     /* Footer */
     footer {
         text-align: center;
