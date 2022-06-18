@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page | Join</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <!-- Headline -->
+        <div class="headline">
+            <a href="index.html"><img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo"></a>
+            <div class="header_text_block">
+                <h1>Narvacan Business Suite</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+        </div>
+        <!-- Social Media Links -->
+        <div class="social_media">
+            <ul>
+                <li><a href="#"><img src="images/facebook-f-brands.svg" alt="Facebook Icon"></a></li>
+                <li><a href="#"><img src="images/instagram-brands.svg" alt="Instagram Icon"></a></li>
+            </ul>
+        </div>
+        <!-- Navigation -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggle_menu()"><img src="images/bars-solid.svg" alt=""></a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Date Today -->
+        <div class="date_today">
+            <h3><span id="date_today"></span></h3>
+        </div>
+    </header>
+
+
+        <div class="join-main">
+            <h3>Join Us</h3>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>First Name<span class="required">*</span>
+                        <br><input type="text" name="fname" required></label>
+                    <label>Last Name<span class="required">*</span>
+                        <br><input type="text" name="lname" required></label>
+                    <label>Business Position Title<br><input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
+                    <p class="small-hint">(Alpha characters, hyphens, and spaces only, minimum 7 characters)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>Email Address<span class="required">*</span>
+                        <br><input type="email" name="email" 
+                        placeholder="email@emailsite.com" required></label>
+                    <label>Phone Number<span class="required">*</span>
+                        <br><input type="tel" name="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label>Name/Title of Business<span class="required">*</span>
+                        <br><input type="text" name="bname" required></label>
+                    <label>Description of Business<br><textarea name="bdesc"></textarea></label>
+                </fieldset>
+                <fieldset class="membership-levels">
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="membership" value="np"> Non-Profit Membership (Free)</label>
+                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership (£5/month)</label>
+                    <label><input type="radio" name="membership" value="silver"> Silver Membership (£10/month)</label>
+                    <label><input type="radio" name="membership" value="gold"> Gold Membership (£20/month)</label>
+                    <div class="membership-benefits">
+                        <p class="small-hint">
+                            Non-Profit Membership is for non-profit organizations.<br>
+                            Bronze comes with a course on how to run a business.<br>
+                            Silver comes with Bronze benefits and 25% off event prices.<br>
+                            Gold gives you Silver benefits and you can advertise your
+                            business on the front page's spotlights.
+                        </p>
+                    </div>
+                </fieldset>
+                <input type="hidden" id="join-form-date" name="datetime">
+                <p class="small-hint">Items with a red asterisk (<span class="required">*</span>) are required.</p>
+                <input type="submit" value="Join the Chamber" class="submit-button">
+            </form>
+        </div>
+
+
+
+    <footer>
+        <!-- Footer Headline -->
+        <div class="footer_headline">
+            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+            <h1>Narvacan Business Suite</h1>
+            <h2>Chamber of Commerce</h2>
+            <p>Sta. Lucia, Narvacan, Ilocos Sur, Philippines</p>
+        </div>
+        <!-- Footer Contact -->
+        <div class="footer_contact">
+            <a href="#">narvacanbusinesssuite@gmail.com</a>
+            <p>0912 345 6789</p>
+        </div>
+        <!-- Footer Information-->
+        <div class="footer_information">
+            <p>&copy; <span id="year_today"></span> Narvacan Business Suite</p>
+            <p> Therese Lee D. Gasmen</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="timestamp_today"></span></p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/lazy-load.js"></script>
+    <script src="js/visitdays.js"></script>
+</body>
+</html>

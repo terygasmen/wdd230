@@ -188,6 +188,32 @@ button:hover {
     border-radius: 10px;
     text-align: center;
 }
+fieldset {
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--light_brown);
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 40%;
+}
+legend {
+    background-color: var(--white);
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+label {
+    color: var(--white);
+    font-weight: 700;
+}
+input {
+    padding: 10px 25px;
+    margin: 10px 25px;
+}
+.small-hint {
+    color: var(--white);
+}
 .footer_headline img {
     width: 80px;
     height: 80px;
