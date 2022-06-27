@@ -138,6 +138,11 @@ button:hover {
     background-color: var(--orange);
     border: 1px solid var(--orange);
 }
+.join-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .join {
     background-color: var(--green);
     border: 1px solid var(--green);
