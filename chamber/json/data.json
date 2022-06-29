@@ -2,75 +2,75 @@
 {
     "businesses": [
         {
-            "name": "Comopany One",
-            "imageurl": "",
+            "name": "Company One",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
             "address": "123 Street, City, Region",
             "phonenumber": "111-1111",
             "siteurl": "companyone.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Two",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "456 Street, City, Region",
+            "phonenumber": "222-2222",
+            "siteurl": "companytwo.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Three",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "789 Street, City, Region",
+            "phonenumber": "333-3333",
+            "siteurl": "companythree.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Four",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "012 Street, City, Region",
+            "phonenumber": "444-4444",
+            "siteurl": "companyfour.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Five",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "345 Street, City, Region",
+            "phonenumber": "555-5555",
+            "siteurl": "companyfive.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Six",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "678 Street, City, Region",
+            "phonenumber": "666-6666",
+            "siteurl": "companysix.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Seven",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "901 Street, City, Region",
+            "phonenumber": "777-7777",
+            "siteurl": "companyseven.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
-            "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "name": "Company Eight",
+            "imageurl": "https://www.seoclerk.com/pics/000/983/324/7024f9c82e7bb330838ee9de87116371.png",
+            "address": "234 Street, City, Region",
+            "phonenumber": "888-8888",
+            "siteurl": "companyeight.com",
             "memberlevel": "Bronze"
         },
         {
-            "name": "Comopany One",
+            "name": "Company Nine",
             "imageurl": "",
-            "address": "123 Street, City, Region",
-            "phonenumber": "111-1111",
-            "siteurl": "companyone.com",
+            "address": "567 Street, City, Region",
+            "phonenumber": "999-9999",
+            "siteurl": "companynine.com",
             "memberlevel": "Bronze"
         }
     ]
