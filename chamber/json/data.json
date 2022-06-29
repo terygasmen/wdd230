@@ -1,0 +1,77 @@
+
+{
+    "businesses": [
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Comopany One",
+            "imageurl": "",
+            "address": "123 Street, City, Region",
+            "phonenumber": "111-1111",
+            "siteurl": "companyone.com",
+            "memberlevel": "Bronze"
+        }
+    ]
+}
