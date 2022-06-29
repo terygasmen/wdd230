@@ -236,14 +236,13 @@ input {
 }
 
 .directory-main div button {
-    color: white;
-    background-color: #1F487E;
-    border: 1px solid #376996;
+    color: var(--white);
+    background-color: var(--dark_green);
     padding: 0.5rem 0.75rem;
 }
 
 .directory-main div button:hover {
-    background-color: #376996;
+    background-color: var(--orange);
 }
 
 .directory-cards {
