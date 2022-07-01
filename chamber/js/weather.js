@@ -5,7 +5,7 @@ const currentTemp = document.getElementById('temperature');
 const weatherIcon = document.getElementById('home-weather-icon');
 const captionDesc = document.getElementById('home-weather-sun');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Cambridge,GB&units=metric&appid=ca2889fa1d2db238e71bf879578b7164';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Narvacan, PH,GB&units=metric&appid=850f85405ab713d96880a077b3067953';
 
 async function apiFetch() {
     try {
