@@ -94,6 +94,8 @@ button:hover {
     border: 1px solid black;
     height: auto;
 }
+
+/* Weather Section */
 .weather img{
     max-width:20%;
     max-height:20%;
@@ -109,6 +111,8 @@ button:hover {
 #home-weather-sun {
     margin: 0;
 }
+
+/* Headline */
 .headline {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -119,6 +123,8 @@ button:hover {
 .headline_text_block {
     grid-column: 2/5;
 }
+
+/* Hero */
 .hero {
 	position: relative;
     margin: 0;
@@ -134,10 +140,14 @@ button:hover {
 	top: 30px;
 	right: 30px;
 }
+
+/* Event */
 .event {
     background-color: var(--orange);
     border: 1px solid var(--orange);
 }
+
+/* Join */
 .join-main {
     display: flex;
     justify-content: center;
@@ -152,10 +162,17 @@ button:hover {
     border: 0;
     color: var(--white);
 }
+.thank_you {
+    margin: 50px;
+}
+
+/* News Release */
 .news_release {
     background-color: var(--light_brown);
     border: 1px solid var(--light_brown);
 }
+
+/* Spotlight */
 .spotlight_block_1 {
     background-color: var(--light_brown);
     border: 1px solid var(--light_brown);
@@ -168,11 +185,14 @@ button:hover {
     background-color: var(--orange);
     border: 1px solid var(--orange);
 }
+
+
 .weather {
     background-color: var(--green);
     border: 1px solid var(--green);
 }
 
+/* Discover */
 .discover_section img {
     width: 200px;
     height: 160px;
@@ -186,6 +206,7 @@ button:hover {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
 }
+
 .brown_text_block {
     background-color: var(--light_brown);
     color: var(--white);
