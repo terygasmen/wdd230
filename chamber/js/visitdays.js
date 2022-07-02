@@ -1,4 +1,4 @@
-const daysSince = document.getElementById("days_visited");
+const daysSince = document.getElementById("days_visit");
 
 let previousDay = Number(window.localStorage.getItem("last-time"));
 

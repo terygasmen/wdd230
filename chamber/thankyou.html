@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,65 +14,87 @@
 </head>
 <body>
     <header>
-        <!-- Headline -->
-        <div class="headline">
-            <a href="index.html"><img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo"></a>
-            <div class="header_text_block">
-                <h1>Narvacan Business Suite</h1>
-                <h2>Chamber of Commerce</h2>
-            </div>
-        </div>
-        <!-- Social Media Links -->
-        <div class="social_media">
-            <ul>
-                <li><a href="#"><img src="images/facebook-f-brands.svg" alt="Facebook Icon"></a></li>
-                <li><a href="#"><img src="images/instagram-brands.svg" alt="Instagram Icon"></a></li>
-            </ul>
-        </div>
-        <!-- Navigation -->
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="toggle_menu()"><img src="images/bars-solid.svg" alt=""></a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Date Today -->
-        <div class="date_today">
-            <h3><span id="date_today"></span></h3>
-        </div>
-    </header>
-    <p id="home-meet-greet-msg">Come Join us for the Chamber Meet and Greet Wednesday at 7:00 p.m.</p>
 
-    <div class="thank_you brown_text_block">
-        <h3>Thank you so much for joining!</h3>
-        <p>Narvacan Business Suite welcomes you to the family!</p>
-    </div>
+        <!-- Meet and Greet Banner -->
+        <p id="meet_greet">Join Us For The Chamber Meet and Greet at Wednesday 7:00 p.m.</p>
+        <div>
+
+            <!-- Logo Section -->
+            <div class="heading">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="heading_text">
+                    <h1>Narvacan Business Suite</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul id="main_nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Media -->
+            <div class="social_media">
+                <a href="facebook.com" target="_blank"><img src="images/facebook-f-brands.svg" alt="Facebook Link"></a>
+                <a href="instagram.com" target="_blank"><img src="images/instagram-brands.svg" alt="Instagram link"></a>
+            </div>
+
+            <button id="burger_icon"><span>&#9776;</span><span>X</span></button>
+        </div>
+
+        <!-- Burger Navigation -->
+        <ul id="burger_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Date Today -->
+        <p class="date_today"></p>
+    </header>
+
+
+    <main>
+        <div class="thank_you">
+            <h3>Thank You!</h3>
+            <p>Narvacan Business Suite welcomes you to the family.</p>
+        </div>
+    </main>
+
 
     <footer>
-        <!-- Footer Headline -->
-        <div class="footer_headline">
-            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
-            <h1>Narvacan Business Suite</h1>
-            <h2>Chamber of Commerce</h2>
-            <p>Sta. Lucia, Narvacan, Ilocos Sur, Philippines</p>
+        <div class="footer">
+            <div class="footer_logo">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="footer_text">
+                    <h4>Narvacan Business Suite</h4>
+                    <p>25 Viloria St., Sa. Lucia</p>
+                    <p>Narvacan, Ilocos Sur, Philippines</p>
+                </section>
+            </div>
+            <div class="footer_info">
+                <p>narvacanbusinesssuite.com</p>
+                <p>123-4567</p>
+            </div>
         </div>
-        <!-- Footer Contact -->
-        <div class="footer_contact">
-            <a href="#">narvacanbusinesssuite@gmail.com</a>
-            <p>0912 345 6789</p>
-        </div>
-        <!-- Footer Information-->
-        <div class="footer_information">
-            <p>&copy; <span id="year_today"></span> Narvacan Business Suite</p>
-            <p> Therese Lee D. Gasmen</p>
+        <div class="copyright_info">
+            <p>&copy; <span id="copyright_year"></span> Narvacan Business Suite</p>
+            <p>Therese Lee Gasmen</p>
             <p>WDD 230 Project</p>
-            <p>Last Modification: <span id="timestamp_today"></span></p>
+            <p>Last Updated: <span id="copyright_update"></span></p>
         </div>
+        <p class="copyright_info_2">&copy; <span id="copyright_year_2"></span>
+            Narvacan Business Suite | Therese Lee Gasmen | WDD 230 Project | Last Updated: <span id="copyright_update_2"></span></p>
+        <p id="weather_source">Weather Data Source: <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
     </footer>
-    <script src="js/scripts.js"></script>
-    <script src="js/menu.js"></script>
+    <script src="js/chamber.js"></script>
 </body>
 </html>

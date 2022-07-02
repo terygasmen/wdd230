@@ -1,9 +1,9 @@
 let windChill;
-const windChillElement = document.getElementById('wind-chill');
-const windSpeedElement = document.getElementById('wind-speed');
+const windChillElement = document.getElementById('wind_chill');
+const windSpeedElement = document.getElementById('wind_speed');
 const currentTemp = document.getElementById('temperature');
-const weatherIcon = document.getElementById('home-weather-icon');
-const captionDesc = document.getElementById('home-weather-sun');
+const weatherIcon = document.getElementById('weather_icon');
+const captionDesc = document.getElementById('weather_sun');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Narvacan, PH,GB&units=metric&appid=850f85405ab713d96880a077b3067953';
 

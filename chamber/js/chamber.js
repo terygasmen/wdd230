@@ -5,26 +5,26 @@ const fullDate = new Intl.DateTimeFormat("en-US", {
 const year = now.getFullYear();
 const today = now.getDay();
 
-document.querySelector(".current-date").innerHTML = fullDate;
+document.querySelector(".date_today").innerHTML = fullDate;
 
-document.querySelector("#small-copyright-year").innerHTML = year;
+document.querySelector("#copyright_year").innerHTML = year;
 
-document.getElementById("small-last-updated").innerHTML = document.lastModified;
+document.getElementById("copyright_update").innerHTML = document.lastModified;
 
-document.querySelector("#medium-copyright-year").innerHTML = year;
+document.querySelector("#copyright_year_2").innerHTML = year;
 
-document.getElementById("medium-last-updated").innerHTML = document.lastModified;
+document.getElementById("copyright_update_2").innerHTML = document.lastModified;
 
 function toggleMenu() {
-    document.getElementById("hamburger-nav").classList.toggle("open");
-    document.getElementById("hamburger-button").classList.toggle("open");
+    document.getElementById("burger_nav").classList.toggle("open");
+    document.getElementById("burger_icon").classList.toggle("open");
 }
 
-const x = document.getElementById("hamburger-button");
+const x = document.getElementById("burger_icon");
 
 x.onclick = toggleMenu;
 
-const meetGreetMsg = document.getElementById("home-meet-greet-msg");
+const meetGreetMsg = document.getElementById("meet_greet");
 
 if(today === 1 || today === 2) {
     meetGreetMsg.style.display = "block";

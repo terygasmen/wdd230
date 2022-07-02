@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Narvacan Business Suite | Discover</title>
+    <meta name="description" content="This page shows the Narvacan Business Suite Home Page.">
+    <title>Narvacan Business Suite | Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css">
@@ -13,119 +14,155 @@
 </head>
 <body>
     <header>
-        <!-- Headline -->
-        <div class="headline">
-            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
-            <div class="header_text_block">
-                <h1>Narvacan Business Suite</h1>
-                <h2>Chamber of Commerce</h2>
+
+        <!-- Meet and Greet Banner -->
+        <p id="meet_greet">Join Us For The Chamber Meet and Greet at Wednesday 7:00 p.m.</p>
+        <div>
+
+            <!-- Logo Section -->
+            <div class="heading">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="heading_text">
+                    <h1>Narvacan Business Suite</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
             </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul id="main_nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Media -->
+            <div class="social_media">
+                <a href="facebook.com" target="_blank"><img src="images/facebook-f-brands.svg" alt="Facebook Link"></a>
+                <a href="instagram.com" target="_blank"><img src="images/instagram-brands.svg" alt="Instagram link"></a>
+            </div>
+
+            <button id="burger_icon"><span>&#9776;</span><span>X</span></button>
         </div>
-        <!-- Social Media Links -->
-        <div class="social_media">
-            <ul>
-                <li><a href="#"><img src="images/facebook-f-brands.svg" alt="Facebook Icon"></a></li>
-                <li><a href="#"><img src="images/instagram-brands.svg" alt="Instagram Icon"></a></li>
-            </ul>
-        </div>
-        <!-- Navigation -->
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="toggle_menu()"><img src="images/bars-solid.svg" alt=""></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+
+        <!-- Burger Navigation -->
+        <ul id="burger_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
         <!-- Date Today -->
-        <div class="date_today">
-            <h3><span id="date_today"></span></h3>
-        </div>
+        <p class="date_today"></p>
     </header>
 
 
-        <div class="brown_text_block">
-            <h3>Demographics Facts about Narvacan</h3>
-            <p>Narvacan is a 2nd class municipality in the province of Ilocos Sur, Philippines. According to the 2020 census, it has a population of 46, 234 people.</p>
+    <main>
+        <div class="main_grid discover_grid">
+
+            <!-- Narvacan Demographics -->
+            <section class="discover_demographics">
+                <h3>Demographics Facts about Narvacan, Ilocos Sur, Philippines</h3>
+                <ul>
+                    <li>Narvacan is a 2nd class municipality in the province of Ilocos Sur, Philippines. According to the 2020 census, it has a population of 46, 234 people.</li>
+                </ul>
+            </section>
+            
+            <!-- Discover Section -->
+
+            <!-- Bagnet Festival -->
+            <div class="discover_left_image">
+                <picture>
+                    <img src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" data-src='images/bagnet_festival.jpg' alt="A tray of Bagnet at Narvacan Farmer's Market">
+                </picture>
+            </div>
+            <section class="discover_right_text">
+                <h3>Celebration of Bagnet Festival at Narvacan, Ilocos Sur, Philippines</h3>
+                <p>Held every December, Narvacan is banking on the towns culinary past to bring in more domestic and foreign tourist and reclaiming its position as the birthplace of bagnet, that delicacy that is a craze all over Ilocandia and to gourmands.</p>
+            </section>
+
+            <!-- St. Lucy Parish -->
+            <div class="discover_right_image">
+                <picture>
+                    <img src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" data-src="images/narvacan_church.jpg" alt="The Church and Tower of Mt. Carmel at Sta. Lucia, Narvacan">
+                </picture>
+            </div>
+            <section class="discover_left_text" id="discover_text_1">
+                <h3>A Makeover of Mt. Carmel Church and Tower</h3>
+                <p>Our lady of Mt. Carmel Pastoral Center is located at Narvacan, Ilocos Sur, Philippines. It is one of the popular Local Business listed under Catholic Church in Ilocos Sur.</p>
+            </section>
+
+            <!-- Inauguration of Farmer's Market -->
+            <div class="discover_left_image">
+                <picture>
+                    <img src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" data-src="images/farmersmarket3.jpg" alt="President Rodrigo Roa Duterte in the Inauguration of the Narvacan Farmers Market">
+                </picture>
+            </div>
+            <section class="discover_right_text">
+                <h3>Inauguration of the Narvacan Farmers Market with President Rodrigo Duterte</h3>
+                <p>President Rodrigo Roa Duterte leads the inauguration of the first-ever Narvacan Farmers Market in the Municipality of Narvacan, Ilocos Sur on March 4, 2022.</p>
+            </section>
+
+            <!-- Celebration of Farmer's Market -->
+            <div class="discover_right_image">
+                <picture>
+                    <img src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" data-src="images/farmersmarket5.jpg" alt="Top view of Narvacan Farmers Market">
+                </picture>
+            </div>
+            <section class="discover_left_text" id="discover_text_2">
+                <h3>Opening Celebration of Narvacan Farmers Market</h3>
+                <p>As recognition for the efforts and valuable contributions of Filipino farmers towards the progress, welfare, and development of Narvacan, the local government unit (LGU) pushed for the establishment of this world-class public market to serve as an avenue for local farmers in showcasing and distributing their products and goods, as well as in attracting business development in the Municipality and its neighboring provinces.</p>
+            </section>
+
+            <!-- NOAH -->
+            <div class="discover_left_image">
+                <picture>
+                    <img src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" data-src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" alt="A person paragliding at Bantay Abot at Narvacan, Ilocos Sur, Philippines">
+                </picture>
+            </div>
+            <section class="discover_right_text">
+                <h3>Adventure Hub at NOAH</h3>
+                <p>The Narvacan Outdoor Adventure Hub (NOAH), a very unique adventure camp and outdoor sports complex in Narvacan, Ilocos Sur founded in 2005, is another reason to visit Ilocos Sur (aside from the Spanish-era Earthquake Baroque churches and the Old World charm of Vigan).</p>
+            </section>
+
+            <!-- Days Visit -->
+            <p class="days_visit_text">It has been <span id="days_visit"></span> days since your last visit.</p>
         </div>
-        <div class="discover_block">
-            <div class="discover_section">
-                <picture>
-                    <img src="images/placeholder.jpg" data-src="images/bagnet_festival.jpg" alt="A tray of Bagnet at Narvacan Farmer's Market">
-                </picture>
-                <section>
-                    <h3>Celebration of Bagnet Festival at Narvacan, Ilocos Sur, Philippines</h3>
-                    <p>Held every December, Narvacan is banking on the town’s culinary past to bring in more domestic and foreign tourist and reclaiming its position as the birthplace of bagnet, that delicacy that is a craze all over Ilocandia and to gourmands.</p>
-                </section>
-            </div>
-            <div class="discover_section">
-                <picture>
-                    <img src="images/placeholder.jpg" data-src="images/narvacan_church.jpg" alt="The Church and Tower of Mt. Carmel at Sta. Lucia, Narvacan">
-                </picture>
-                <section>
-                    <h3>A Makeover of Mt. Carmel Church and Tower</h3>
-                    <p>Our lady of Mt. Carmel Pastoral Center is located at Narvacan, Ilocos Sur, Philippines. It is one of the popular Local Business listed under Catholic Church in Ilocos Sur.</p>
-                </section>
-            </div>
-            <div class="discover_section">
-                <picture>
-                    <img src="images/placeholder.jpg" data-src="images/farmersmarket3.jpg" alt="President Rodrigo Roa Duterte in the Inauguration of the Narvacan Farmers Market">
-                </picture>
-                <section>
-                    <h3>Inauguration of the Narvacan Farmers Market with President Rodrigo Duterte</h3>
-                    <p>President Rodrigo Roa Duterte leads the inauguration of the first-ever Narvacan Farmers Market in the Municipality of Narvacan, Ilocos Sur on March 4, 2022.</p>
-                </section>
-            </div>
-            <div class="discover_section">
-                <picture>
-                    <img src="images/placeholder.jpg" data-src="images/farmersmarket5.jpg" alt="Top view of Narvacan Farmers Market">
-                </picture>
-                <section>
-                    <h3>Opening Celebration of Narvacan Farmers Market</h3>
-                    <p>As recognition for the efforts and valuable contributions of Filipino farmers towards the progress, welfare, and development of Narvacan, the local government unit (LGU) pushed for the establishment of this world-class public market to serve as an avenue for local farmers in showcasing and distributing their products and goods, as well as in attracting business development in the Municipality and its neighboring provinces.</p>
-                </section>
-            </div>
-            <div class="discover_section">
-                <picture>
-                    <img src="images/placeholder.jpg" data-src="images/NARVACAN-PARAGLIDING-COVER-1-of-1.jpg" alt="A person paragliding at Bantay Abot at Narvacan, Ilocos Sur, Philippines">
-                </picture>
-                <section>
-                    <h3>Adventure Hub at NOAH</h3>
-                    <p>The Narvacan Outdoor Adventure Hub (NOAH), a very unique adventure camp and outdoor sports complex in Narvacan, Ilocos Sur founded in 2005, is another reason to visit Ilocos Sur (aside from the Spanish-era Earthquake Baroque churches and the Old World charm of Vigan).</p>
-                </section>
-            </div>
-        </div>
-        <div class="brown_text_block">
-            <p>It has been <span id="days_visited"></span> days since your last visit.</p>
-        </div>
+    </main>
 
 
     <footer>
-        <!-- Footer Headline -->
-        <div class="footer_headline">
-            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
-            <h1>Narvacan Business Suite</h1>
-            <h2>Chamber of Commerce</h2>
-            <p>Sta. Lucia, Narvacan, Ilocos Sur, Philippines</p>
+        <div class="footer">
+            <div class="footer_logo">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="footer_text">
+                    <h4>Narvacan Business Suite</h4>
+                    <p>25 Viloria St., Sa. Lucia</p>
+                    <p>Narvacan, Ilocos Sur, Philippines</p>
+                </section>
+            </div>
+            <div class="footer_info">
+                <p>narvacanbusinesssuite.com</p>
+                <p>123-4567</p>
+            </div>
         </div>
-        <!-- Footer Contact -->
-        <div class="footer_contact">
-            <a href="#">narvacanbusinesssuite@gmail.com</a>
-            <p>0912 345 6789</p>
-        </div>
-        <!-- Footer Information-->
-        <div class="footer_information">
-            <p>&copy; <span id="year_today"></span> Narvacan Business Suite</p>
-            <p> Therese Lee D. Gasmen</p>
+        <div class="copyright_info">
+            <p>&copy; <span id="copyright_year"></span> Narvacan Business Suite</p>
+            <p>Therese Lee Gasmen</p>
             <p>WDD 230 Project</p>
-            <p>Last Modification: <span id="timestamp_today"></span></p>
+            <p>Last Updated: <span id="copyright_update"></span></p>
         </div>
+        <p class="copyright_info_2">&copy; <span id="copyright_year_2"></span>
+            Narvacan Business Suite | Therese Lee Gasmen | WDD 230 Project | Last Updated: <span id="copyright_update_2"></span></p>
+        <p id="weather_source">Weather Data Source: <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
     </footer>
-    <script src="js/scripts.js"></script>
-    <script src="js/lazy-load.js"></script>
-    <script src="js/menu.js"></script>
+    <script src="js/chamber.js"></script>
     <script src="js/visitdays.js"></script>
+    <script src="js/lazy-load.js"></script>
 </body>
 </html>

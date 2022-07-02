@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Narvacan Business Suite | Join</title>
+    <meta name="description" content="This page shows the Narvacan Business Suite Home Page.">
+    <title>Narvacan Business Suite | Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css">
@@ -13,49 +14,66 @@
 </head>
 <body>
     <header>
-        <!-- Headline -->
-        <div class="headline">
-            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
-            <div class="header_text_block">
-                <h1>Narvacan Business Suite</h1>
-                <h2>Chamber of Commerce</h2>
+
+        <!-- Meet and Greet Banner -->
+        <p id="meet_greet">Join Us For The Chamber Meet and Greet at Wednesday 7:00 p.m.</p>
+        <div>
+
+            <!-- Logo Section -->
+            <div class="heading">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="heading_text">
+                    <h1>Narvacan Business Suite</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
             </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul id="main_nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Media -->
+            <div class="social_media">
+                <a href="facebook.com" target="_blank"><img src="images/facebook-f-brands.svg" alt="Facebook Link"></a>
+                <a href="instagram.com" target="_blank"><img src="images/instagram-brands.svg" alt="Instagram link"></a>
+            </div>
+
+            <button id="burger_icon"><span>&#9776;</span><span>X</span></button>
         </div>
-        <!-- Social Media Links -->
-        <div class="social_media">
-            <ul>
-                <li><a href="#"><img src="images/facebook-f-brands.svg" alt="Facebook Icon"></a></li>
-                <li><a href="#"><img src="images/instagram-brands.svg" alt="Instagram Icon"></a></li>
-            </ul>
-        </div>
-        <!-- Navigation -->
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="toggle_menu()"><img src="images/bars-solid.svg" alt=""></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+
+        <!-- Burger Navigation -->
+        <ul id="burger_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
         <!-- Date Today -->
-        <div class="date_today">
-            <h3><span id="date_today"></span></h3>
-        </div>
+        <p class="date_today"></p>
     </header>
 
 
-        <div class="join-main">
+    <main>
+        <div class="join">
             <h3>Join Us</h3>
             <form method="get" action="thankyou.html">
+            <div class="join_form">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label>First Name<span class="required">*</span>
                         <br><input type="text" name="fname" required></label>
                     <label>Last Name<span class="required">*</span>
                         <br><input type="text" name="lname" required></label>
-                    <label>Business Position Title<br><input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
+                    <label>Job Title<br><input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
                     <p class="small-hint">(Alpha characters, hyphens, and spaces only, minimum 7 characters)</p>
                 </fieldset>
                 <fieldset>
@@ -72,54 +90,49 @@
                         <br><input type="text" name="bname" required></label>
                     <label>Description of Business<br><textarea name="bdesc"></textarea></label>
                 </fieldset>
-                <fieldset class="membership-levels">
+                <fieldset class="membership_levels">
                     <legend>Membership Level</legend>
-                    <label><input type="radio" name="membership" value="np"> Non-Profit Membership (Free)</label>
-                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership (Php 50/month)</label>
-                    <label><input type="radio" name="membership" value="silver"> Silver Membership (Php 100/month)</label>
-                    <label><input type="radio" name="membership" value="gold"> Gold Membership (Php 250/month)</label>
-                    <div class="membership-benefits">
-                        <p class="small-hint">
-                            Non-Profit Membership is for non-profit organizations.<br>
-                            Bronze comes with a course on how to run a business.<br>
-                            Silver comes with Bronze benefits and 25% off event prices.<br>
-                            Gold gives you Silver benefits and you can advertise your
-                            business on the front page's spotlights.
-                        </p>
-                    </div>
+                    <label><input type="radio" name="membership" value="np"> Non-Profit Membership (Free) Non-Profit Membership is for non-profit organizations.</label>
+                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership (Php 50.00/month) Bronze comes with a course on how to run a business.</label>
+                    <label><input type="radio" name="membership" value="silver"> Silver Membership (Php 100.00/month) Silver comes with Bronze benefits and 25% off event prices.</label>
+                    <label><input type="radio" name="membership" value="gold"> Gold Membership (Php 250.00/month) Gold gives you Silver benefits and you can advertise your
+                        business on the front page's spotlights.</label>
                 </fieldset>
-                <input type="hidden" id="join-form-date" name="datetime">
-                <p class="small-hint">Items with a red asterisk (<span class="required">*</span>) are required.</p>
-                <input type="submit" value="Join the Chamber" class="submit-button">
+            </div>
+                <input type="hidden" id="join_form_date" name="datetime">
+                <p class="warning">Items with a red asterisk (<span class="required">*</span>) are required.</p>
+                <input type="submit" value="Join the Chamber" class="submit">
             </form>
         </div>
-
+    </main>
 
 
     <footer>
-        <!-- Footer Headline -->
-        <div class="footer_headline">
-            <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
-            <h1>Narvacan Business Suite</h1>
-            <h2>Chamber of Commerce</h2>
-            <p>Sta. Lucia, Narvacan, Ilocos Sur, Philippines</p>
+        <div class="footer">
+            <div class="footer_logo">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="footer_text">
+                    <h4>Narvacan Business Suite</h4>
+                    <p>25 Viloria St., Sa. Lucia</p>
+                    <p>Narvacan, Ilocos Sur, Philippines</p>
+                </section>
+            </div>
+            <div class="footer_info">
+                <p>narvacanbusinesssuite.com</p>
+                <p>123-4567</p>
+            </div>
         </div>
-        <!-- Footer Contact -->
-        <div class="footer_contact">
-            <a href="#">narvacanbusinesssuite@gmail.com</a>
-            <p>0912 345 6789</p>
-        </div>
-        <!-- Footer Information-->
-        <div class="footer_information">
-            <p>&copy; <span id="year_today"></span> Narvacan Business Suite</p>
-            <p> Therese Lee D. Gasmen</p>
+        <div class="copyright_info">
+            <p>&copy; <span id="copyright_year"></span> Narvacan Business Suite</p>
+            <p>Therese Lee Gasmen</p>
             <p>WDD 230 Project</p>
-            <p>Last Modification: <span id="timestamp_today"></span></p>
+            <p>Last Updated: <span id="copyright_update"></span></p>
         </div>
+        <p class="copyright_info_2">&copy; <span id="copyright_year_2"></span>
+            Narvacan Business Suite | Therese Lee Gasmen | WDD 230 Project | Last Updated: <span id="copyright_update_2"></span></p>
+        <p id="weather_source">Weather Data Source: <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
     </footer>
-    <script src="js/scripts.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/lazy-load.js"></script>
-    <script src="js/visitdays.js"></script>
+    <script src="js/chamber.js"></script>
+    <script src="js/join.js"></script>
 </body>
 </html>

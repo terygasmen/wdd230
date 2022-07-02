@@ -1,14 +1,14 @@
 const data = 'json/data.json';
-const cards = document.querySelector('.directory-cards');
-const gridBtn = document.getElementById('dir-grid-button');
-const listBtn = document.getElementById('dir-list-button');
+const cards = document.querySelector('.directory_cards');
+const gridBtn = document.getElementById('directory_grid');
+const listBtn = document.getElementById('directory_list');
 
 fetch(data)
 .then(function(response) {
     return response.json();
 })
 .then(function(jsonObject) {
-    console.table(jsonObject);
+    // console.table(jsonObject);
     const businesses = jsonObject['businesses'];
     businesses.forEach(displayBusinesses);
 });
@@ -41,7 +41,7 @@ function displayBusinesses(business) {
     card.appendChild(memberLevel);
 
 
-    document.querySelector('div.directory-cards').appendChild(card);
+    document.querySelector('div.directory_cards').appendChild(card);
 }
 
 function makeDirList() {cards.classList.add('is-list')}
