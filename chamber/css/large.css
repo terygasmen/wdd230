@@ -91,4 +91,11 @@
     .section_text {
         grid-column: 2/3;
     }
+
+    /* Contact Page */
+    .join {
+        justify-content: center;
+        display: flex;
+        gap: 10rem;
+    }
 }

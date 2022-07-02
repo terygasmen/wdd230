@@ -621,7 +621,11 @@ form p.warning:nth-last-child(2) {
 }
 
 /* Contact Page */
-
+.contact_heading {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
 .contact-main {
     display: flex;
     justify-content: center;

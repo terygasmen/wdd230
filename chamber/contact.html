@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page shows the Narvacan Business Suite Home Page.">
+    <title>Narvacan Business Suite | Contact</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+
+        <!-- Meet and Greet Banner -->
+        <p id="meet_greet">Join Us For The Chamber Meet and Greet at Wednesday 7:00 p.m.</p>
+        <div>
+
+            <!-- Logo Section -->
+            <div class="heading">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="heading_text">
+                    <h1>Narvacan Business Suite</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul id="main_nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Media -->
+            <div class="social_media">
+                <a href="facebook.com" target="_blank"><img src="images/facebook-f-brands.svg" alt="Facebook Link"></a>
+                <a href="instagram.com" target="_blank"><img src="images/instagram-brands.svg" alt="Instagram link"></a>
+            </div>
+
+            <button id="burger_icon"><span>&#9776;</span><span>&#9776;</span></button>
+        </div>
+
+        <!-- Burger Navigation -->
+        <ul id="burger_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Date Today -->
+        <p class="date_today"></p>
+    </header>
+
+
+    <main>
+        <h3 class="contact_heading">Contact Us</h3>
+        <div class="join">
+
+            <form method="get" action="thankyou.html">
+
+            <div class="join_form">
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label>Name<span class="required">*</span>
+                        <br><input type="text" name="name" required></label>
+
+                    <label>Organization<span class="required">*</span>
+                        <br><input type="text" name="organization" required></label>
+
+                    <label>Mailing Address
+                        <br><input type="text" name="mail_address" required></label>
+
+                    <label>City<span class="required">*</span>
+                        <br><input type="text" name="city" required></label>
+
+                    <label>State<span class="required">*</span>
+                        <br><input type="text" name="state" required></label>
+
+                    <label>Postal Code<span class="required">*</span>
+                        <br><input type="text" name="postal_code" required></label>
+
+                    <label>Country<span class="required">*</span>
+                        <br><input type="text" name="country" required></label>
+
+                    <label>Phone
+                        <br><input type="tel" name="phone" required></label>
+
+                    <label>Email Address<span class="required">*</span>
+                        <br><input type="email" name="email" required></label>
+                    
+                    <label>Comments/Questions<span class="required">*</span>
+                        <br><textarea name="message"></textarea></label>  
+                </fieldset>
+            </div>
+                <input type="hidden" id="contact_form_date" name="datetime">
+                <p class="warning">Items with a red asterisk (<span class="required">*</span>) are required.</p>
+                <input type="submit" value="Submit Message" class="submit">
+            </form>
+
+        <div class="contact_block">
+            <div class="contact_section_block">
+                <h3>Visit Us</h3>
+                <p>Narvacan Business Suite</p>
+                <p>#25 Viloria St., Sta. Lucia</p>
+                <p>Narvacan, Ilocos Sur, Philippines</p>
+                <p>123-4567</p>
+                <hr>
+                <p>Monday to Saturday</p>
+                <p>9:00 a.m. to 5:00 p.m.</p>
+            </div>
+            <div class="contact_section_block">
+                <h3>Points Of Contact</h3>
+                <p>Aurelia D. Gasmen</p>
+                <p>President & CEO</p>
+                <p>(+63)917 808 7384</p>
+                <hr>
+                <p>Wilfredo C. Gasmen</p>
+                <p>Director of Marketing</p>
+                <p>(+63)935 654 9024</p>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer_logo">
+                <img src="images/logo_green_bg.webp" alt="Narvacan Business Suite Logo">
+                <section class="footer_text">
+                    <h4>Narvacan Business Suite</h4>
+                    <p>25 Viloria St., Sa. Lucia</p>
+                    <p>Narvacan, Ilocos Sur, Philippines</p>
+                </section>
+            </div>
+            <div class="footer_info">
+                <p>narvacanbusinesssuite.com</p>
+                <p>123-4567</p>
+            </div>
+        </div>
+        <div class="copyright_info">
+            <p>&copy; <span id="copyright_year"></span> Narvacan Business Suite</p>
+            <p>Therese Lee Gasmen</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="copyright_update"></span></p>
+        </div>
+        <p class="copyright_info_2">&copy; <span id="copyright_year_2"></span>
+            Narvacan Business Suite | Therese Lee Gasmen | WDD 230 Project | Last Updated: <span id="copyright_update_2"></span></p>
+        <p id="weather_source">Weather Data Source: <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
+    </footer>
+    <script src="js/chamber.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
