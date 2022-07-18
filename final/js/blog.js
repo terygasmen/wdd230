@@ -31,8 +31,8 @@ function displayBlogposts(blog) {
 
     // Add or append the section(card) with the main element
 
-    card.appendChild(heading);
     card.appendChild(image);
+    card.appendChild(heading);
     card.appendChild(description);
     card.appendChild(button);
 
