@@ -1,28 +1,32 @@
 {
     "blog_posts": [
         {
+            "heading": "The Temple Inn & Suites welcomes you!",
+            "imageurl": "https://www.hospitalitynet.org/picture/153099123.jpg?v=1554384420",
+            "description": "The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.",
+            "button": "Learn more about us!",
+            "siteurl": "../index.html"
+        },
+        {
             "heading": "Visit a Temple",
             "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/_temp/144-Phoenix-Arizona-Temple.jpg",
-            "description": "Phoenix, Arizona Temple",
-            "button": "Find a temple now!"
+            "description": "On May 15, 2013, the traditional gold-leafed figure of the angel Moroni was installed atop the spire of the Phoenix Arizona Temple to an audience of enthusiastic workers and members who gathered to the temple to witness the milestone event.",
+            "button": "Find a temple now!",
+            "siteurl": "../temple.html"
         },
         {
             "heading": "Reserve a room",
             "imageurl": "https://cache.marriott.com/marriottassets/marriott/TPLFI/tplfi-suite-0029-hor-clsc.jpg?interpolation=progressive-bilinear&",
             "description": "After booking an appointment at the temple of your choosing, reserve a room in our hotels around the world to have a relaxing trip.",
-            "button": "Book a room now!"
+            "button": "Book a room now!",
+            "siteurl": "../reservation.html"
         },
         {
-            "heading": "Visit a Temple",
-            "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/_temp/144-Phoenix-Arizona-Temple.jpg",
+            "heading": "Indulge in our services",
+            "imageurl": "https://eduguide.co.in/wp-content/uploads/2021/02/hotel-management.jpg",
             "description": "Phoenix, Arizona Temple",
-            "button": "Find a temple now!"
-        },
-        {
-            "heading": "Visit a Temple",
-            "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/_temp/144-Phoenix-Arizona-Temple.jpg",
-            "description": "Phoenix, Arizona Temple",
-            "button": "Find a temple now!"
+            "button": "The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons.",
+            "siteurl": "../services.html"
         }
     ]
 }

@@ -29,6 +29,8 @@ function displayBlogposts(blog) {
     image.setAttribute('alt', `Image of ${blog.description}`);
     image.setAttribute('loading', 'lazy');
 
+    button.setAttribute('href', blog.siteurl);
+
     // Add or append the section(card) with the main element
 
     card.appendChild(image);
