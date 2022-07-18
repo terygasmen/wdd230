@@ -38,7 +38,7 @@ header div {
 /* Logo */
 header img {
     width: 150px;
-    height: auto;
+    height: 150px;
 }
 
 /* Navigation */
@@ -98,6 +98,13 @@ header ul a {
 }
 
 /* Cards */
+.cards {
+    margin: 1.5rem;
+}
+.cards section {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 .cards section h2 {
     font-family: var(--heading_font);
 }
@@ -110,9 +117,13 @@ header ul a {
 .cards section button {
     font-family: var(--link_font);
     background-color: var(--white);
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     border: 1px solid var(--black);
     border-radius: 10px;
+    font-size: 1rem;
+}
+h2, p {
+    margin: 0;
 }
 
 
@@ -123,19 +134,22 @@ footer {
     padding: 1.5rem;
     border-radius: 10px;
 }
-
 .footer_header, .footer_body {
     display: flex;
     justify-content: space-between;
 }
-
-/* Footer Logo */
-.footer_header img {
-    width: 150px;
-    height: auto;
+.footer_body ul {
+    padding: 0;
 }
-
+.footer_body ul li {
+    text-align: center;
+}
 .footer_body ul a {
     color: var(--white);
     font-family: var(--main_font);
+}
+/* Footer Logo */
+.footer_header img {
+    width: 150px;
+    height: 150px;
 }
