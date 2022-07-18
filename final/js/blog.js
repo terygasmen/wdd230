@@ -18,7 +18,7 @@ function displayBlogposts(blog) {
     let heading = document.createElement('h2');
     let image = document.createElement('img');
     let description = document.createElement('p');
-    let button = document.createElement('button');
+    let button = document.createElement('a');
 
     heading.textContent = `${blog.heading}`;
     image.textContent = `${blog.imageurl}`;
