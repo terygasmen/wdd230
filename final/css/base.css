@@ -37,8 +37,8 @@ header div {
 
 /* Logo */
 header img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 /* Navigation */
@@ -123,9 +123,10 @@ header ul a {
     font-family: var(--link_font);
     background-color: var(--white);
     padding: 0.8rem 1.5rem;
-    border: 1px solid var(--black);
+    border: 1px solid var(--blue);
     border-radius: 10px;
     font-size: 1rem;
+    color: var(--blue);
 }
 
 
@@ -154,6 +155,6 @@ footer ul {
 }
 /* Footer Logo */
 .footer_header img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
