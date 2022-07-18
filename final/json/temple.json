@@ -1,0 +1,48 @@
+{
+    "temples": [
+        {
+            "name": "Manila Philippines Temple",
+            "image": "https://churchofjesuschristtemples.org/assets/img/temples/_temp/029-Manila-Philippines-Temple.jpg",
+            "address": "13 Temple Drive corner Whiteplains Avenue Greenmeadows Subdivision, UGONG NORTE, Quezon City, 1110 Metro Manila, Philippines",
+            "telephone": "(63) 2-8635-9111",
+            "email": "Not Available",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "The temple was announced on 1 April 1981. The groundbreaking was on 25 August 1982. It was dedicated on 25 September 1984.",
+            "ordinance_schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify a proxy appointment. Call or email the temple to schedule a living ordinance appointment.",
+            "temple_closure_schedule": "This 2022: (1) Monday, 1 August 2022 - Monday, 15 August 2022, (2) Saturday, 8 October 2022, (3) Saturday, 24 December 2022, (4) Saturday, 31 December 2022"
+        },
+        {
+            "name": "Sao Paulo Brazil Temple",
+            "image": "https://media.ldscdn.org/images/media-library/temples/sao-paulo-brazil/sao-paulo-brazil-temple-lds-187030-wallpaper.jpg",
+            "address": "Av. Prof. Francisco Morato, 2390, Caxingui, 05512-300 São Paulo - SP, Brazil",
+            "telephone": "(55) 11-3723-7600",
+            "email": "Not Available",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "The temple was announced on 1 March 1975. The groundbreaking was on 20 March 1976. It was dedicated on 30 October 1978. It was then rededicated on 22 February 2004.",
+            "ordinance_schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify a proxy appointment. Call or email the temple to schedule a living ordinance appointment.",
+            "temple_closure_schedule": "This 2022: (1) Monday, 1 August 2022 - Monday, 15 August 2022, (2) Wednesday, 7 September 2022, (3) Saturday, 1 October 2022, (4) Saturday, 24 December 2022, (5) Saturday, 31 December 2022"
+        },
+        {
+            "name": "Rome Italy Temple",
+            "image": "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-1389.jpg",
+            "address": "Via de Settebagni 376, Rome RM, Italy",
+            "telephone": "(39) 06-9480-5050",
+            "email": "Not Available",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "The temple was announced on 4 October 2008. The groundbreaking was on 23 October 2010. It was dedicated on 10 March 2019.",
+            "ordinance_schedule": "Appointments for proxy ordinances are encouraged. Patrons without appointments are also welcome, but may be asked to wait for an opportunity to participate. Click the Appointments button below to schedule or modify a proxy appointment.",
+            "temple_closure_schedule": "This 2022: (1) Monday, 19 September 2022 - Monday, 3 October 2022, (2) Saturday, 24 December 2022 - Monday, 26 December 2022, (3) Saturday, 31 December 2022 - Sunday, 1 January 2023"
+        },
+        {
+            "name": "Phoenix Arizona Temple",
+            "image": "https://churchofjesuschristtemples.org/assets/img/temples/_temp/144-Phoenix-Arizona-Temple.jpg",
+            "address": "5220 W Pinnacle Peak Rd, Phoenix AZ 85310, United States",
+            "telephone": "(1) 623-474-9500",
+            "email": "Learn more about us!",
+            "services": "No clothing rentail available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history": "The temple was announced on 9 May 2008. The groundbreaking was on 4 June 2011. It was dedicated on 16 November 2014.",
+            "ordinance_schedule": "Appointments for proxy ordinances are encouraged. Patrons without appointments are also welcome, but may be asked to wait for an opportunity to participate. Click the Appointments button below to schedule or modify a proxy appointment.",
+            "temple_closure_schedule": "This 2022: (1) Saturday, 1 October 2022, (2) Monday, 31 October 2022 - Monday, 14 November 2022, (3) Wednesday, 23 November 2022 with Limited Operations, (4) Thursday, 24 November 2022, (5) Saturday, 24 December 2022, (6) Saturday, 31 December 2022 with Limited Opeartions"
+        }
+    ]
+}
