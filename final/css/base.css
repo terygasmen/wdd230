@@ -168,6 +168,19 @@ header ul a {
     color: var(--black);
 }
 
+/* Temple Page */
+.temple_cards section {
+    text-align: center;
+    margin: 1.5rem;
+}
+.temple_cards section h2 {
+    font-family: var(--heading_font);
+}
+.temple_cards section img {
+    width: 300px;
+    border-radius: 10px;
+}
+
 
 /* FOOTER */
 footer {
