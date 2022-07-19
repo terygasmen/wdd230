@@ -162,7 +162,7 @@ iframe {
 }
 
 /* Services Page */
-.services, .amenities {
+.services_page {
     text-align: center;
     margin: 1rem;
 }
@@ -280,7 +280,7 @@ footer {
 footer ul {
     padding: 0;
 }
-.footer_body {
+.footer_navigation {
     display: flex;
     justify-content: space-between;
     gap: 20px;

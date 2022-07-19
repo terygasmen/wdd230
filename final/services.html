@@ -36,7 +36,7 @@
         </ul>
     </header>
 
-    <main class="services">
+    <main class="services_page">
         <!--Services-->
         <h2>Specialized Services</h2>
         <div class="services">
@@ -122,46 +122,50 @@
             </section>
         </div>
         <div class="footer_body">
-            <!--Footer Navigation-->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="temple.html">Temple</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
+            <section class="footer_navigation">
+                <!--Footer Navigation-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
 
-            <!--Other Pages-->
-            <ul>
-                <li><a href="missionary.html">Full-time Missionary</a></li>
-                <li><a href="reception.html">Reception</a></li>
-            </ul>
+                <!--Other Pages-->
+                <ul>
+                    <li><a href="missionary.html">Full-time Missionary</a></li>
+                    <li><a href="reception.html">Reception</a></li>
+                </ul>
 
-            <!--Footer Social Media-->
-            <ul>
-                <li><a href="facebook.com">Facebook</a></li>
-                <li><a href="instagram.com">Instagram</a></li>
-                <li><a href="youtube.com">YouTube</a></li>
-            </ul>
-        </div>
-        <!--Footer Contact Us-->
-        <div class="footer_contact">
-            <h3>Contact Us</h3>
-            <div class="contact">
-                <form method="get" action="thankyou.html">
-                <div class="contact_form">
-                    <fieldset>
-                        <label>Name<span class="required">*</span>
-                            <br><input type="text" name="name" required></label>
-                        <label>Email Address<span class="required">*</span>
-                            <br><input type="email" name="email" required></label>
-                        <label>Comments/Questions<span class="required">*</span>
-                            <br><textarea name="message"></textarea></label>  
-                    </fieldset>
+                <!--Footer Social Media-->
+                <ul>
+                    <li><a href="facebook.com">Facebook</a></li>
+                    <li><a href="instagram.com">Instagram</a></li>
+                    <li><a href="youtube.com">YouTube</a></li>
+                </ul>
+            </section>
+            <!--Footer Contact Us-->
+            <div class="footer_contact">
+                <h3>Contact Us</h3>
+                <div class="contact">
+                    <form method="get" action="thankyou.html">
+                    <div class="contact_form">
+                        <fieldset>
+                            <label>Name<span class="required">*</span>
+                                <br><input type="text" name="name" required></label>
+                            <label>Email Address<span class="required">*</span>
+                                <br><input type="email" name="email" required></label>
+                            <label>Comments/Questions<span class="required">*</span>
+                                <br><textarea name="message"></textarea></label>  
+                        </fieldset>
+                    </div>
+                    <input type="hidden" id="contact_form_date" name="datetime">
+                    <input type="submit" value="Submit Message" class="submit">
+                    </form>
                 </div>
-                <input type="hidden" id="contact_form_date" name="datetime">
-                <input type="submit" value="Submit Message" class="submit">
-            </form>
+            </div>
         </div>
+        <!--Footer Copyright-->
         <div class="footer_copyright">
             <div class="copyright_info">
                 <p>&copy; <span id="copyright_year"></span> Temple Inn & Suites</p>

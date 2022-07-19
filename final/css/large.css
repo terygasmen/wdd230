@@ -25,4 +25,53 @@
     .cards section p {
         text-align: justify;
     }
+
+    /* Services Page */
+    .services, .amenities {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+    .services img, .amenities img {
+        height: auto;
+    }
+    .services_block {
+        margin: 6rem 1rem;
+    }
+
+    /* FOOTER */
+    .footer_header {
+        display: flex;
+    }
+    .footer_header_logo {
+        text-align: left;
+    }
+    iframe {
+        width: 40rem;
+        height: 100%;
+        object-fit: cover;
+    }
+    .footer_header ul li {
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .footer_body ul a {
+        color: var(--white);
+        font-family: var(--link_font);
+        font-size: 1rem;
+    }
+    .footer_copyright p, #weather_source {
+        font-size: 0.7rem;
+    }
+    .footer_body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer_navigation {
+        gap: 5rem;
+    }
+    .footer_navigation ul li {
+        padding-bottom: 1rem;
+    }
 }
