@@ -180,6 +180,9 @@ header ul a {
     width: 300px;
     border-radius: 10px;
 }
+.temple_cards section p {
+    text-align: left;
+}
 
 
 /* FOOTER */
