@@ -27,13 +27,13 @@ function displayTemples(temple) {
 
     name.textContent = `${temple.name}`;
     image.textContent = `${temple.image}`;
-    address.textContent = `&#f3c5; ${temple.address}`;
-    telephone.textContent = `&#f095; ${temple.telephone}`;
-    email.textContent = `&#f0e0; ${temple.email}`;
-    services.textContent = `&#f562; ${temple.services}`;
-    history.textContent = `&#e4a2; ${temple.history}`;
-    ordinance_schedule.textContent = `&#e577; ${temple.ordinance_schedule}`;
-    temple_closure_schedule.textContent = `&#f023; ${temple.temple_closure_schedule}`;
+    address.textContent = `&f3c5; ${temple.address}`;
+    telephone.textContent = `&f095; ${temple.telephone}`;
+    email.textContent = `&f0e0; ${temple.email}`;
+    services.textContent = `&f562; ${temple.services}`;
+    history.textContent = `&e4a2; ${temple.history}`;
+    ordinance_schedule.textContent = `&e577; ${temple.ordinance_schedule}`;
+    temple_closure_schedule.textContent = `&f023; ${temple.temple_closure_schedule}`;
 
     image.setAttribute('src', temple.image);
     image.setAttribute('alt', `Image of ${temple.name}`);
