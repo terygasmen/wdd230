@@ -189,6 +189,50 @@ header ul a {
 }
 
 /* Reservation Page */
+.reservation {
+    margin: 1rem;
+}
+.reservation h2 {
+    font-family: var(--heading_font);
+    text-align: center;
+}
+.reservation fieldset {
+    border: 0;
+}
+.reservation fieldset legend {
+    font-family: var(--link_font);
+    font-size: 1.5rem;
+}
+.reservation fieldset input {
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-bottom: 1px solid var(--blue);
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.reservation fieldset label {
+    font-family: var(--heading_font);
+    color: var(--orange);
+}
+.reservation fieldset textarea {
+    border: 0;
+    border-bottom: 1px solid var(--blue);
+    width: 100%;
+}
+.submit {
+    background-color: var(--orange);
+    border: 0;
+    border-radius: 10px;
+    padding: 1rem 2.5rem;
+    font-family: var(--link_font);
+    width: 100%;
+}
+.warning {
+    text-align: center;
+}
+.required {
+    color: red;
+}
 
 
 /* FOOTER */
