@@ -25,18 +25,18 @@ function displayTemples(temple) {
     let ordinance_schedule = document.createElement('p');
     let temple_closure_schedule = document.createElement('p');
 
-    name.textContent = `${blog.name}`;
-    image.textContent = `${blog.image}`;
-    address.textContent = `${blog.address}`;
-    telephone.textContent = `${blog.telephone}`;
-    email.textContent = `${blog.email}`;
-    services.textContent = `${blog.services}`;
-    history.textContent = `${blog.history}`;
-    ordinance_schedule.textContent = `${blog.ordinance_schedule}`;
-    temple_closure_schedule.textContent = `${blog.temple_closure_schedule}`;
+    name.textContent = `${temple.name}`;
+    image.textContent = `${temple.image}`;
+    address.textContent = `${temple.address}`;
+    telephone.textContent = `${temple.telephone}`;
+    email.textContent = `${temple.email}`;
+    services.textContent = `${temple.services}`;
+    history.textContent = `${temple.history}`;
+    ordinance_schedule.textContent = `${temple.ordinance_schedule}`;
+    temple_closure_schedule.textContent = `${temple.temple_closure_schedule}`;
 
-    image.setAttribute('src', blog.image);
-    image.setAttribute('alt', `Image of ${blog.name}`);
+    image.setAttribute('src', temple.image);
+    image.setAttribute('alt', `Image of ${temple.name}`);
     image.setAttribute('loading', 'lazy');
 
     // Add or append the section(card) with the main element
