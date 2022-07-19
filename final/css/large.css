@@ -1,5 +1,11 @@
 @media (min-width: 900px) {
-    html {
-        background-color: red;
+    #burger_icon, #burger_navigation {
+        display: none;
+    }
+    #main_navigation {
+        display: flex;
+    }
+    header ul a {
+        color: var(--black);
     }
 }
