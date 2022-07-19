@@ -254,16 +254,21 @@ footer ul {
     gap: 20px;
 }
 .footer_body ul li {
-    text-align: center;
+    text-align: left;
 }
 .footer_body ul a {
     color: var(--white);
-    font-family: var(--main_font);
+    font-family: var(--link_font);
+    font-size: 0.7rem;
 }
 /* Footer Logo */
 .footer_header img {
     width: 100px;
     height: 100px;
+}
+.footer_header ul li {
+    font-size: 0.6rem;
+    padding-bottom: 0.5rem;
 }
 .footer_copyright {
     border-top: 1px solid var(--white);
