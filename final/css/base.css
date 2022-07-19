@@ -130,15 +130,17 @@ header ul a {
 }
 
 /* Services Page */
-.services {
+.services, .amenities {
     text-align: center;
+    margin: 1rem;
 }
-.services h2 {
+.services h2, .amenities h2 {
     font-family: var(--heading_font);
 }
 .services img, .amenities img {
-    width: 350px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 .services p, .amenities p {
@@ -177,7 +179,9 @@ header ul a {
     font-family: var(--heading_font);
 }
 .temple_cards section img {
-    width: 300px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 .temple_cards section p {
