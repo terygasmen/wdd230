@@ -29,6 +29,9 @@
         display: flex;
         justify-content: space-between;
     }
+    .map {
+        width: 100%;
+    }
     #weather {
         width: 20rem;
     }

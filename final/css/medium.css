@@ -1,4 +1,20 @@
 @media (min-width: 600px) and (max-width: 899px) {
+    /* MAIN */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards section img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .maps_and_weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
     /* Services Page */
     .services, .amenities {
         display: grid;
