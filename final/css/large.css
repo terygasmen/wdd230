@@ -25,6 +25,18 @@
     .cards section p {
         text-align: justify;
     }
+    .maps_and_weather {
+        display: flex;
+        justify-content: space-between;
+    }
+    #weather {
+        width: 20rem;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
     /* Services Page */
     .services, .amenities {
@@ -45,8 +57,12 @@
     }
     .footer_header_logo {
         text-align: left;
+        width: 30rem;
     }
-    iframe {
+    .footer_header map {
+        width: 100%;
+    }
+    .footer_header iframe {
         width: 40rem;
         height: 100%;
         object-fit: cover;
