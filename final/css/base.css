@@ -47,8 +47,8 @@ header ul {
 }
 header ul a {
     color: var(--white);
-    font-size: 1.5rem;
-    font-family: var(--heading_font);
+    font-size: 1.2rem;
+    font-family: var(--link_font);
 }
 #main_navigation {
     display: none;
