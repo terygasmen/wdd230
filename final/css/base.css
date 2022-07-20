@@ -324,6 +324,12 @@ iframe {
     object-fit: cover;
     border-radius: 10px;
 }
+.missionary_introduction a {
+    background-color: var(--black);
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+}
 
 /* FOOTER */
 footer {
