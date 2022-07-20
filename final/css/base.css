@@ -161,6 +161,38 @@ iframe {
     color: var(--blue);
 }
 
+/* Reception Page */
+.reception_introduction, .venue, .bridal_perks, .groom_perks {
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.reception section h3 {
+    text-align: center;
+}
+.reception section ul li {
+    padding-bottom: 1rem;
+}
+.reception_introduction {
+    text-align: center;
+}
+.reception_introduction a {
+    border-radius: 10px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.6rem 2rem;
+}
+.reception ul {
+    list-style: circle;
+}
+.reception img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 /* Services Page */
 .services_page {
     text-align: center;
