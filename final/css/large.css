@@ -82,6 +82,15 @@
         font-size: 1.7rem;
     }
 
+    /* Missionary Page */
+    .missionary {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .missionary_contact {
+        grid-column: 1/3;
+    }
+
     /* FOOTER */
     .footer_header {
         display: flex;

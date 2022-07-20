@@ -300,6 +300,30 @@ iframe {
     color: red;
 }
 
+/* Missionary Page */
+.missionary h3 {
+    font-family: var(--heading_font);
+    text-align: center;
+    font-size: 1.3rem;
+}
+.missionary section {
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.missionary_introduction {
+    text-align: center;
+}
+.missionary section ul {
+    list-style: circle;
+}
+.missionary section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 /* FOOTER */
 footer {
